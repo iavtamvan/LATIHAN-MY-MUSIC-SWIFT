@@ -16,6 +16,7 @@
 		5C290FEF299C717B008CA456 /* MyMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C290FEE299C717B008CA456 /* MyMusicTests.swift */; };
 		5C290FF9299C717B008CA456 /* MyMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C290FF8299C717B008CA456 /* MyMusicUITests.swift */; };
 		5C290FFB299C717B008CA456 /* MyMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C290FFA299C717B008CA456 /* MyMusicUITestsLaunchTests.swift */; };
+		5C63F9D7299C77C9008FD057 /* astrid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C63F9D6299C77C9008FD057 /* astrid.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5C290FF4299C717B008CA456 /* MyMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C290FF8299C717B008CA456 /* MyMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicUITests.swift; sourceTree = "<group>"; };
 		5C290FFA299C717B008CA456 /* MyMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C63F9D6299C77C9008FD057 /* astrid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = astrid.mp3; path = ../../../../../Desktop/astrid.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		5C290FD6299C7178008CA456 /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				5C63F9D5299C778B008FD057 /* Files */,
 				5C290FD7299C7178008CA456 /* AppDelegate.swift */,
 				5C290FD9299C7178008CA456 /* SceneDelegate.swift */,
 				5C290FDB299C7178008CA456 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				5C290FFA299C717B008CA456 /* MyMusicUITestsLaunchTests.swift */,
 			);
 			path = MyMusicUITests;
+			sourceTree = "<group>";
+		};
+		5C63F9D5299C778B008FD057 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C63F9D6299C77C9008FD057 /* astrid.mp3 */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				5C290FE4299C717B008CA456 /* LaunchScreen.storyboard in Resources */,
 				5C290FE1299C717B008CA456 /* Assets.xcassets in Resources */,
 				5C290FDF299C7178008CA456 /* Main.storyboard in Resources */,
+				5C63F9D7299C77C9008FD057 /* astrid.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
